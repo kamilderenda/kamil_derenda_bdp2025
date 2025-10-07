@@ -173,5 +173,6 @@ WHERE id_pracownika IN (
     FROM ksiegowosc.wynagrodzenie w
     JOIN ksiegowosc.pensje p ON w.id_pensji = p.id_pensji
     WHERE p.kwota < 1200
-);
+)
+
 
