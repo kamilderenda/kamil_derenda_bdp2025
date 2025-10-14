@@ -87,4 +87,6 @@ h) SELECT
         )
     )
 FROM buildings c
-WHERE c.name = 'BuildingC';
+WHERE c.name = 'BuildingC'
+
+
