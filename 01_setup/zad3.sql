@@ -1,0 +1,10 @@
+ZAD 3. EWKT
+1) CREATE TABLE obiekty(
+	id SERIAL PRIMARY KEY,
+	name TEXT,
+	polygons GEOMETRY(POLYGON),
+	lines GEOMETRY(LINESTRING),
+	points GEOMETRY(POINT)
+)
+
+a)
